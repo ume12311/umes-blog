@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME | BOOK LISTS</title>
+    <link rel="icon" type="image/x-icon" href="Um.png">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Roboto+Condensed:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;1,300&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');       
+.dropbtn {
+color: rgb(0, 0, 0);
+border: none;
+background-color:#FFFAF4 ;
+font-family: 'Roboto Condensed', sans-serif;
+font-size: 22px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #FFFAF4;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+font-family: 'Roboto Condensed', sans-serif;
+font-size: 22px;
+
+}
+.dropdown-content1 {
+display: none;
+position: absolute;
+background-color: #FFFAF4;
+min-width: 250px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+font-family: 'Roboto Condensed', sans-serif;
+font-size: 22px;
+
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+.dropdown-content1 a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #C3B091; color: rgb(255, 255, 255);}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change color of dropdown links on hover */
+.dropdown-content1 a:hover {background-color: #C3B091; color: rgb(255, 255, 255);}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content1 {display: block;}
+
+
+
+body{
+    background-color: #FFFAF4;
+}
+#logo{
+    margin-top: -50px;
+}
+h4{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 22px;
+}
+.top{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -165px;
+    margin-left: 500px;
+}
+.squares{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+#bo{
+       background-color:   #ffffff;
+       height: 500px;
+       width: 1000px;
+       border: rgb(0, 0, 0) 5px solid;
+       box-shadow: 10px 10px 10px 3px #918662;
+       margin-left: 120px ;
+       padding-top: 2em;
+       margin-top: 100px;
+}
+
+#readmore{
+    box-shadow: 10px 10px 3px #5f533b;
+    margin-left: 550px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    height: 40px;
+    width: 250px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+color: white;
+}
+
+#bo1{
+       background-color:   #ffffff;
+       height: 500px;
+       width: 1000px;
+       border: rgb(0, 0, 0) 5px solid;
+       box-shadow: 10px 10px 10px 3px #918662;
+       margin-left: 120px ;
+       padding-top: 2em;
+       margin-top: 100px;
+}
+
+#readmore1{
+    box-shadow: 10px 10px 3px #5f533b;
+    margin-left: 550px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    height: 40px;
+    width: 250px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+color: white;
+}
+#laila1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+ .hover1:hover {color: #ab6d1c;  position:relative;}
+a:hover {
+	-webkit-transition: background-color 1s ease;
+  -moz-transition: background-color 1s ease;
+  -o-transition: background-color 1s ease;
+  transition: background-color 1s ease;
+  font-weight: 800;
+  
+  /*font-size: 20px;*/
+}
+.dropbtn:hover {color: #ab6d1c;  position:relative;}
+.hover:hover {color: #ab6d1c;  position:relative;}
+
+</style>
+</head>
+<body>
+<div>
+<img id="logo" src="Um.png" width="300px" height="250px">
+<div class="top">
+<a class="home"  style="text-decoration:none ; color:black;" href="index.html"><h4 class="hover1">HOME</h4></a>
+<div class="dropdown">
+    <h4 class="dropbtn">BOOKS</h4>
+    <div class="dropdown-content">
+      <a  href="booklists.html">BOOK LISTS</a>
+      <a href="bookblog.html">BOOK BLOG</a>
+      <a href="bookquotes.html">BOOK QUOTES</a>
+    </div>
+  </div>       
+  <div class="dropdown">
+    <h4  style="color: #ffffff; background-color: #DACBA9;  text-align: center; padding: 1em; margin-top: 6px;"   class="dropbtn">BLOG</h4>
+    <div class="dropdown-content1">
+      <a href="uae.html">LIVING IN THE UAE</a>
+      <a href="bookblog.html">BOOK BLOG</a>
+      <a style="background-color: #5f5545; color: white;" href="highschoolblog.html">HIGHSCHOOL BLOG</a>
+    </div>
+  </div>              
+  <a class="home"  style="text-decoration:none ; color:black;" href="about.html"><h4 class="hover">ABOUT</h4></a>
+</div>
+</div>
+<div>
+<div style="background-color:#DACBA9; height: 80px; margin-top: 70px;">
+       <h1 style="background-color:#DACBA9; font-family: 'Roboto Condensed', sans-serif; margin-left: 50px; padding-top: 20px ;">HIGHSCHOOL BLOG</h1>
+    </div>
+</div>
+</div>
+<div>
+    <p  style="text-align: center; color: rgb(0, 0, 0); font-family: 'Nanum Gothic', sans-serif; margin-top:32px ;">Let's see! Other than being obsessed over fantasy who else am I? Well, nothing more than a highschooler living in the United Arab Emirates. Here is a bit about my highschool life, as a typical highschooler:)</p>
+</div>
+  <img style="margin-left:20px; margin-top: 20px;" src="GRADE 9 (1).png" width="300px">
+    <h1 style=" text-align:center; margin-left:  350px; margin-top: -300px ; font-family: 'Roboto Condensed', sans-serif;">END OF MIDDLE SCHOOL! <br/> (8TH GRADE) </h1>
+   <p style="text-align: center; margin-left:  350px; color: rgb(0, 0, 0); font-family: 'Barlow', sans-serif; margin-top:32px ;"></p>
+
+<div>
+    <p style="text-align: center;; color: rgb(0, 0, 0); margin-top: 300px;"> Finally end of middle school! I finally finished middle school. The time of cringiness and of growing up to become someone, well hopefully new. <br/>
+        One can only hope to grow out of the 'weird phase'. I too hoped and thought I<br/>
+         had finally changed but it turns out that instead of the extrovert I thought I would be,<br/>
+          instead I turned into a fully grown 'quiet kid', 'Nerd', 'uninteresting', Whatever you'de<br/>
+           call a person who prefers fantasy and day dreaming instead of real life. Though in a way dont<br/>
+            we all someday find ourselves hoping to be in a different reality? <br/>
+            In a reality where all yu problem swim away and you're only left with a emotion of happiness<br/>
+             and a life without worries. We all want that? Right? Unless you're not normal or are the<br/>
+              main character out of a book. Either way to be honest, for me so far <br/>
+              in my educational career I have found middle school to be the hardest. Well, why? <br/>
+              Because let me tell you, even if you're obbessed with reading or fiction and not really into<br/>
+               real people it still hurts to not have anyone to talk to or eat lunch with. seeing others<br/>
+                gossip and talk about their interest with others is sort of hard to comprehend. <br/>
+                or atleast it was for me. Getting up at early forenoon, outting up your uniform, <br/>
+                skipping breakfast because for some reason breakfast gives you a tummy ache, than<br/>
+                 heading to the one and only place, whoch for some people might be considered hell, <br/>
+                 and finding yourself loning out and avoiding everyone because you arent like them. <br/>
+                 In it's bitter truth is very hard. Although I must say I didnt get bullied or maybe I did<br/>
+                  but didnt realize it. People might have mocked me for not being like that. By people I mean<br/>
+                   girls. And no I'm not disabled or anything. I just went to a school where <br/>
+                   thez spoke a different language, which I had sort of not very much payed <br/>
+                   attention to before, but haing every girl in \your school speak that same language<br/>
+                    is hard. Not hard for them cause they might just ignore, but hard for the odd person,<br/>
+                     which in this clear state was me. I was the different kid. I was born and raised for <br/>
+                     atleast 4 years in pakistan and spoke my mother tonge, which was certainly not arabic,<br/>
+                      an I also am quite good in english, having studied in a britsh school until haveing<br/>
+                       to move to a public arabic school in the <br/>
+        Emirates. I thought it would be a good opprtunity for me and for my future,<br/>
+         and really is, the only problem being the language. Which I still continue to learn<br/>
+          till this day. And at the time I'm writing this, It has only been a few weeks, 2 weeks in total,<br/>
+           since I grauted middle school. since i grauted 8th grade. Which in my honesty I am very much<br/>
+            thrilled about, because why wouldnt I be? It wasnt like I actually enjoyed going to<br/>
+             school or anything, because let me tell you haveing no friends is hard, and while people may<br/>
+              be kind you know you arent that special. In my defense, if I have to defend anything,<br/>
+               I should tell you I am a academically smart student. I am a sort of straight 'A' student.<br/>
+                And to be honest, I'm not sure it really makes me happy anymore. I mean yeah I sort of feel <br/>
+                a bit of light inside me but it fades. Because if you're a golden afraid of failure child<br/>
+                 like me, it gets pretty boring and comman to get good grades. And at a pint you stop<br/>
+                  feeling anything except 'ok', I passed and whatever. But let me tell you if by any <br/>
+                  chance that little 'A' on the report changes to anything lower you feel as though you've<br/>
+                   failed everyone, including yourself. You feel as though you were stripped of yooour <br/>
+                   position, and that's the time you feel something. I must admit that the emotion is<br/>
+                    what most people would avoid. I too try to avoid it. I guess. But in life you fail. <br/>
+                    right? Even when everyone says failing is a part of life, they still remind you of<br/>
+                     it every chance they get too. Being a straight 'A' student doesnt really mean being <br/>
+                     happy. It means people respect and want to be like you until they <br/>
+                     see what it does to you mentally. How evertime you get a mark lower that 80 or a grade<br/>
+                      lower than 'A' hurts you. How it damages you and how worthless you feel. Because a lot<br/>
+                       of times people who get taste failure after a long time of success feel as though the<br/>
+                        failure is th eonly end, and to jump out of that grief they have to work hard, <br/>
+                        to kill their innerselves more than they already have, to ignore everything that<br/>
+                         actually makes them happy, because you know if you fail at something you dont even <br/>
+                         like but worked hard for, the only blame is to be given to the things you love. thev
+                          things that make you happy, that give a feeling of <br/>acuttlay living, having a
+                           life. So when students or in genral people like me fail at something the inly<br/>
+                            and the best way is to<br/>
+        beat our mental selves, afraid to lose anymore, you start fighting your own happiness.<br/>
+         Your own freedom. The truth being it's nobody's fault except<br/>
+          yours that you held such a desire to win, to hold everything in your power, that you<br/>
+           forget what actually makes you feeel joy. I know a lot of times a lot of other students<br/>
+            who dont do that well in school feel as though we study more than them and that we are much<br/>
+             more smarter than them, in a way that is an awaful and a false thought, though alot of <br/>
+             students who pass with flying colors do study alot there are some like people who cant and<br/>
+              wont give a dam about school yet still pass as though they have been studing it for a week <br/>
+              atleast. I wanna remind everyone that getting good grades isnt that imporatant based on what<br/>
+               you study. for a long time I took school as though it was the only way<br/>
+                to prove myself and to prove my worth. Which is quiet an unsafe presuption<br/>
+                 igf I speak of the truth. Later on after covid hit and I had to change schools I <br/>
+                 learned getting good grades and not learning a single thing wasnt the right path.<br/>
+                  My journey of 88th grade was alot about finding out who I was as a person, and I <br/>
+                  still am, till this day I suffer from truly finding out who I am, in 8th grade I<br/>
+                   truly started thing about me. or atleast tried too. <br/>
+        I finally saw what I thought of myself and what it would be like being<br/>
+         imperfect, not that I ever thought I was perfect no one is. through my <br/>
+         last year middle school I learned just how it feels to be left out and feel<br/>
+    </p>
+</div>
+ 
+<div style="border-top: black 3px solid; margin-top: 200px;">
+<h1 style="text-align: center; font-family: 'Roboto Condensed', sans-serif; color: #6b4219;">Ume Laila's Blog</h1>
+<p style="text-align: center;padding-bottom: 2em;  font-family: 'Source Sans Pro', sans-serif; margin-left: 200px; margin-top: 50px;width: 800px;  border-bottom: 3px black solid; ">Ume Laila's blog is all about knowledge and a comman hobbby and sharens of love between the same hobbies. Anyone and everyone is welcome to join! Here we talk about our own opinions and view on different books and 
+   and share our love for writing and other different hobbies. Welcome to Ume Laila's Blog!
+</p>
+
+<div style="display: flex;  margin-left: 500px;">
+    <img src="Untitled design.png" width="50px" height="50px">
+    <img src="Untitled design (1).png" width="50px" height="50px">
+    <img src="Untitled design (2).png" width="50px" height="50px">
+    <img src="Untitled design (3).png"width="50px" height="50px">
+</div>
+</div>
+</body>
+</html>

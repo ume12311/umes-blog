@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME | UL</title>
+    <link rel="icon" type="image/x-icon" href="Um.png">
+    <style>
+          @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Roboto+Condensed:wght@300;400&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;1,300&display=swap'); 
+        @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');        .dropbtn {
+  color: rgb(0, 0, 0);
+  border: none;
+  background-color:#FFFAF4 ;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 22px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #FFFAF4;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family: 'Roboto Condensed', sans-serif;
+ font-size: 22px;
+
+}
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #FFFAF4;
+  min-width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 22px;
+
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content1 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #C3B091; color: rgb(255, 255, 255);}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change color of dropdown links on hover */
+.dropdown-content1 a:hover {background-color: #C3B091; color: rgb(255, 255, 255);}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content1 {display: block;}
+
+
+      
+        body{
+            background-color: #FFFAF4;
+        }
+        #logo{
+            margin-top: -50px;
+        }
+        h4{
+            font-family: 'Roboto Condensed', sans-serif;
+            font-size: 22px;
+        }
+        .top{
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: -165px;
+            margin-left: 500px;
+        }
+        .squares{
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 100px;
+        }
+        #bo{
+               background-color:  #DAC395;
+               height: 800px;
+               width: 400px;
+               border: rgb(0, 0, 0) 5px solid;
+               box-shadow: 3px 10px #000000;
+        }
+        #readmore{
+            margin-left: 70px;
+            border: none;
+            background-color: rgb(255, 255, 255);
+            height: 40px;
+            width: 250px;
+            font-family: 'Roboto Condensed', sans-serif;
+            font-size: 20px;
+            margin-top: 20px;
+        }
+        #readmore1{
+            margin-left: 70px;
+            border: none;
+            background-color: rgb(255, 255, 255);
+            height: 40px;
+            width: 250px;
+            font-family: 'Roboto Condensed', sans-serif;
+            font-size: 20px;
+        }
+        #readmore2{
+            margin-left: 70px;
+            border: none;
+            background-color: rgb(255, 255, 255);
+            height: 40px;
+            width: 250px;
+            font-family: 'Roboto Condensed', sans-serif;
+            font-size: 20px;
+        }
+        .Squares2{
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 100px;
+        }
+        #laila1{
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 100px;
+        }
+        .hover1:hover {color: #ab6d1c;  position:relative;}
+a:hover {
+	-webkit-transition: background-color 1s ease;
+  -moz-transition: background-color 1s ease;
+  -o-transition: background-color 1s ease;
+  transition: background-color 1s ease;
+  font-weight: 800;
+  
+  /*font-size: 20px;*/
+}
+.dropbtn:hover {color: #ab6d1c;  position:relative;}
+.hover:hover {color: #ab6d1c;  position:relative;}
+    </style>
+</head>
+<body>
+    <div>
+        <img id="logo" src="Um.png" width="300px" height="250px">
+        <div class="top">
+            <a class="home"  style="text-decoration:none ; color:black;" href="index.html"><h4 class="hover1">HOME</h4></a>
+            <div class="dropdown">
+            <h4 class="dropbtn">BOOKS</h4>
+            <div class="dropdown-content">
+              <a href="booklists.html">BOOK LISTS</a>
+              <a href="bookblog.html">BOOK BLOG</a>
+              <a href="bookquotes.html">BOOK QUOTES</a>
+            </div>
+          </div>       
+          <div class="dropdown">
+            <h4 class="dropbtn">BLOG</h4>
+            <div class="dropdown-content1">
+              <a href="uae.html">LIVING IN THE UAE</a>
+              <a href="bookblog.html">BOOK BLOG</a>
+              <a href="highschoolblog.html">HIGHSCHOOL BLOG</a>
+            </div>
+          </div>           
+          <a class="home"  style="text-decoration:none ; color:black;" href="about.html"><h4  style="color: #ffffff; background-color: #DACBA9;  text-align: center; padding: 1em; margin-top: 6px; class="hover">ABOUT</h4></a>
+    </div>
+    </div>
+   
+    <div class="laila1">
+        <h4 style="text-align: center; margin-top: 100px; font-size: 30px; border-bottom: solid 3px black; width: 400px; margin-left: 430px;">ABOUT</h4>
+
+        <div>
+        <img style="margin-left: 12px; margin-top: 130px;" src="dark-academia-museums.jpg" width="400px">
+        </div>
+        <div>
+            <h2 style="font-family: 'Roboto Condensed', sans-serif; margin-left: 700px; margin-top: -410px;">Oh , well hello there!</h2>
+            <div style="width:700px; margin-left: 450px; margin-top: 40px;">
+            <p style="text-align: center;  font-family: 'Source Sans Pro', sans-serif; ">Hello and welcome to my first ever blog! I am so excited to finally create this as I have been in the thought of it for many years now, and have finally done it! I hope you enjoy my blog about my opinions and thoughts on different books and my lifestyle. Also, did I forget to introduce myself ? Oh, I did, didnt I? Well, my name is Ume Laila, and I am a high school student who gets her head out of the clouds. Starting from reality. As someone young I have many hopes and dreams that, will not align with reality. Like I seriously hope to solve a murder mystery that somehow may have some correlation to my friends or such. Or my standards. Let's just say they are too high. Even beyond the night sky. As a reader and the sweet responsibilities that come along with it. I absolutely enjoy writing. Writing in the sense of fiction and fantasy. Writing, in my opinion, is the best way I can express my feelings at their best. If I remember quite correctly, I first started writing back when I was 8! Yes 8. Although my writing sucked, I guess you can say I developed a great passion for it. And well, then I got into reading and got myself to the point of becoming a writer.
+<br/>
+                This blog is mainly for me to express my love for reading as well as writing. I have made this blog for you and I to find the latest or the most under-rated recommendations. Varying from many genres. I hope you enjoy reading about my reviews and my opinions on books, and that you find this a safe place to express your own opinions on your favourite books.
+            </p>
+            </div>
+        </div>
+    </div>
+   
+    <div style="border-top: black 3px solid; margin-top: 200px;">
+        <h1 style="text-align: center; font-family: 'Roboto Condensed', sans-serif; color: #6b4219;">Ume Laila's Blog</h1>
+        <p style="text-align: center;padding-bottom: 2em;  font-family: 'Source Sans Pro', sans-serif; margin-left: 200px; margin-top: 50px;width: 800px;  border-bottom: 3px black solid; ">Ume Laila's blog is all about knowledge and a comman hobbby and sharens of love between the same hobbies. Anyone and everyone is welcome to join! Here we talk about our own opinions and view on different books and 
+           and share our love for writing and other different hobbies. Welcome to Ume Laila's Blog!
+        </p>
+   
+        <div style="display: flex;  margin-left: 500px;">
+            <img src="Untitled design.png" width="50px" height="50px">
+            <img src="Untitled design (1).png" width="50px" height="50px">
+            <img src="Untitled design (2).png" width="50px" height="50px">
+            <img src="Untitled design (3).png"width="50px" height="50px">
+        </div>
+    </div>
+</body>
+</html>
